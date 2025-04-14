@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Site Süre Takipçisi",
+  "version": "1.0",
+  "description": "Web sitelerinde geçirilen süreyi takip eden Chrome eklentisi",
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/chronometer.png",
+      "48": "icons/chronometer.png"
+    }
+  },
+  "icons": {
+    "16": "icons/chronometer.png",
+    "48": "icons/chronometer.png"
+  }
+} 
